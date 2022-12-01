@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(15, 15, 25);
+  background-image: url("https://as1.ftcdn.net/v2/jpg/02/45/02/10/1000_F_245021062_VWPyLJL3Dyxr5C1lNGs9STkQlQL97ZfS.jpg");
+  background-size: cover;
+  margin:0;
+}
+
+.topnav {
+  background-color: rgb(25, 25, 35);
+  overflow: hidden;
+  justify-content: right;
+  align-items: flex-end;
+  display: flex;
+  gap: 15px;
+  font-family: "Segoe UI";
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Nunito", sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #fff23d;
+  color: rgb(25, 25, 35);
+}
+.welcome-container {
+  background-color: rgb(25, 25, 35);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.welcome {
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 5px 0 5px 0;
+  padding: 25px 45px 25px 45px;
+  width: 350px;
+}
+.welcome-2 {
+  margin-top: 50px;
+  margin-right: 100px;
+  background-color: rgba(255, 242, 61, 0.9);
+  border-radius: 0 5px 0 5px;
+  padding: 25px 45px 25px 45px;
+  width: 350px;
+  align-self:flex-end;
+}
+.welcome-3 {
+  margin-top: 50px;
+  margin-left: 100px;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 5px 0 5px 0;
+  padding: 25px 45px 25px 45px;
+  width: 350px;
+  margin-bottom: 50px;
+}
+.welcome-center {
+  margin-top: 50px;
+  margin-right: 100px;
+  border-radius: 0 5px 0 5px;
+  padding: 25px 45px 25px 45px;
+  width: 350px;
+  align-self:center;
+  text-align: center;
+}
+.welcome-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+}
+.features-container{
+  margin: 100px;
+  background-color: rgb(25, 25, 35);
+  height: 350px;
+  border-radius: 10px;
+}
+.features{
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  padding-left: 40px;
+  padding-top: 35px;
+  color: rgb(85,85,95);
+}
+
+
+ul{
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+li {
+  font-family: "Nunito", sans-serif;
+  padding-left: 50px;
+  list-style: none;
+  font-size: 30px;
+}
+li:before {
+  content: '\f00c';
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #fff23d;
+}

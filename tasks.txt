@@ -1,0 +1,57 @@
+- Sistema de contas
+    Abrir contas    
+        Dados pessoais
+        endereço
+        fonte de renda(comprovante/ sistema pra enviar arquivos)
+        Foto do rosto e rg
+        OauthV2
+        2Fa
+        Sistema de contas unicas
+    Login
+        OauthV2
+        2Fa
+    Recuperar conta <- foto da piça
+    Estatiticas
+        Entradas
+        Total usado no credito
+        Saidas
+            Categorias(comida/entreterimento/entreterimento adulto/cabaré)
+- App
+- Cripto do banco
+    P2P
+
+- Administração
+    Banir contas
+    Aprovar contas
+    Adcionar saldo
+    Remover saldo
+    Notificar usuario
+
+- Sistema de adicionar/retirar dinheiro
+    gerar um token unico e verificar o status
+    verificar a disponibilidade(caso seja seja retirar)
+    verificar o destinatario
+
+
+- Cambio
+    Varios tipo de moeda no saldo
+
+- Fatura
+    Pagar Fatura
+    Parcelar Fatura
+    Vencimento Fatura
+    Alterar a data de Vencimento
+        Alterar somente o do proximo mês
+        Definir tempo minimo e maximo pra Alterar
+
+- Debito Automatico
+- Transferencias
+    
+- Sistema de salario
+- Cartão de credito e debito
+    sistema de credito(limite/etc)
+
+- Sistema de suporte
+- Pix
+- Investimentos
+- Emprestimo
