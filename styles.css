@@ -14,7 +14,6 @@ body {
   gap: 15px;
   font-family: "Segoe UI";
 }
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -24,12 +23,10 @@ body {
   font-size: 17px;
   font-family: "Nunito", sans-serif;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-
 .topnav a.active {
   background-color: #fff23d;
   color: rgb(25, 25, 35);
@@ -111,3 +108,65 @@ li:before {
   margin-left: -1.5em;
   color: #fff23d;
 }
+
+/*input*/
+.login-form{
+  background-color: rgb(15, 15, 25, 0.9);
+  width: 300px;
+  height: 300px;
+  margin: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  text-align: center;
+  color: rgb(255, 255, 35);
+  border-top:4mm solid rgb(255, 255, 35);
+}
+.account-login-email
+{
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(25, 25, 35);
+  color: white;
+  height: 25px;
+}
+.account-login-password{
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(25, 25, 35);
+  color: white;
+  height: 25px;
+}
+.account-input-label{
+  margin-top: 25px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  display: block;
+}
+
+/*bt*/
+.bt-login-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bt-login{
+  cursor: pointer;
+  margin-top: 25px;
+  width: 155px;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(25, 25, 35);
+  background-color: rgba(255, 242, 61, 0.9);
+}
+
+
+/*barra*/
+
+/*cursor*/
